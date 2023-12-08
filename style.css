@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Roboto Mono", sans-serif;
   color: black;
-  background-color: green;
+  background-color: lightgray;
   font-size: 22px;
   text-align: center;
 }
@@ -50,7 +50,7 @@ p {
 
 .coach .content {
   margin: auto;
-  background-color: white;
+  background-color: lightgreen;
   width: 100%;
 }
 
