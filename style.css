@@ -64,7 +64,245 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: center;body {
+    margin: 0;
+    font-family: "Roboto Mono", sans-serif;
+    color: black;
+    background-color: lightgrey;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  nav {
+      height: 80px;
+      position: fixed;
+      width: 100%;
+      color: #FBFBFC;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom: 2px solid #282B37;
+      z-index: 1;
+      background-color: darkgreen;
+  }
+  
+  nav h1 {
+    justify-content: right;
+    font-size: 1.5rem;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  nav a {
+      margin: 15px 0;
+      font-size: 18px;
+      overflow: hidden;
+  }
+  
+  .burgermenu img {
+      height: 30px;
+      width: 40px;
+      padding: 10px 5px;
+  }
+  
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+  }
+  
+  .navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+  
+  .main {
+    padding-top: 80px;
+    opacity: 0.9;
+  }
+  
+  .coach {
+    display: flex;
+    height: 300px;
+    padding-top: 35px;
+  }
+  
+  .image-container {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .image-container .coach {
+    min-height: 500px;
+    position: relative;
+  }
+  
+  .image-container .coach::after {
+    content: "";
+    background: url("https://www.prosportsbackgrounds.com/wp-content/uploads/Boston-Celtics-wallpaper-logo-desktop-NBA-2024.png");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .coach .content {
+    margin: auto;
+    background-color: lightgreen;
+    width: 100%;
+    align-items: center;
+  }
+  
+  #team {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  
+  .players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .player img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .player span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .stadium {
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container .stadium {
+    min-height: 500px;
+    display: flex;
+    position: relative;
+  }
+  
+  .image-container .stadium::after {
+    content: "";
+    background: url("https://s3-media0.fl.yelpcdn.com/bphoto/EzRJDMRJHvXiUixKUVfrgQ/o.jpg");
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .amenities-container {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 150px;
+    opacity: 0.8;
+  }
+  
+  .amenities {
+    padding: 10px;
+    color: black;
+    flex-basis: 280px;
+  }
+  
+  .amenities img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+  
+  .contact,
+  .copyright {
+    padding-top: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  nav .burgermenu {
+      display: inline-block;
+  }
+  nav h1 {
+    font-size: 1rem;
+  }
+  nav a {
+    display: none;
+  }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .burgermenu img {
+      display: none;
+  }
+  }
+  
+  @media only screen and (max-width: 856px) {
+    nav h1 {
+    font-size: 1rem;
+  }
+  
+  nav a {
+    font-size: 1rem;
+  }
+  
+  }
+  
 }
 
 .player {
@@ -89,7 +327,7 @@ p {
 }
 
 .stadium {
-  background-color: darkgreen;
+  background-image: url("https://scontent.fsyd11-1.fna.fbcdn.net/v/t1.6435-9/125309127_10158760854607667_7564886965005582931_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=zCJm7uwTID0AX_ZKFLA&_nc_ht=scontent.fsyd11-1.fna&oh=00_AfB1nd4UErKsG6iErBGUEzaE_IvjNWUWCgzcTjvyEDT1aw&oe=659B2239");
   padding-top: 70px;
   padding-top: 5px;
   display: flex;
