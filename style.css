@@ -46,7 +46,6 @@ p {
   height: 300px;
   background-image: url("https://scontent.fsyd11-1.fna.fbcdn.net/v/t39.30808-6/396527044_907536387402118_5307615592221152810_n.jpg?stp=dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=8WYvYUMOPEgAX_uF9YB&_nc_ht=scontent.fsyd11-1.fna&oh=00_AfAV7b5lPgTKpZ5kSKttJEKXOXVgvcSQMHTwgn1_piWqig&oe=65781B80");
   padding-top: 35px;
-  opacity: 0.5;
 }
 
 .coach .content {
@@ -90,13 +89,12 @@ p {
 }
 
 .stadium {
-  background-image: url("https://scontent.fsyd11-1.fna.fbcdn.net/v/t1.6435-9/125309127_10158760854607667_7564886965005582931_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=zCJm7uwTID0AX_ZKFLA&_nc_ht=scontent.fsyd11-1.fna&oh=00_AfB1nd4UErKsG6iErBGUEzaE_IvjNWUWCgzcTjvyEDT1aw&oe=659B2239");
+  background-color: darkgreen;
   padding-top: 70px;
   padding-top: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  opacity: 0.5;
 }
 
 .amenities {
